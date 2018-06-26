@@ -1,0 +1,23 @@
+{
+  "name": "sixsixsix",
+  "version": "0.0.1",
+  "description": "基于Vue的UI组件库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Greency/sixsixsix-UI.git"
+  },
+  "keywords": [
+    "vue",
+    "UI"
+  ],
+  "author": "cy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Greency/sixsixsix-UI/issues"
+  },
+  "homepage": "https://github.com/Greency/sixsixsix-UI#readme"
+}
