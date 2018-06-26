@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Greency/sixsixsix-UI/issues"
   },
-  "homepage": "https://github.com/Greency/sixsixsix-UI#readme"
+  "homepage": "https://github.com/Greency/sixsixsix-UI#readme",
+  "dependencies": {
+    "vue": "^2.5.16"
+  }
 }
