@@ -1,23 +1,31 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-Hans">
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>666</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    *{margin: 0; padding: 0;box-sizing: border-box}
+    :root{
+      --btn-height: 32px;
+      --font-size: 14px;
+      --btn-bg: white;
+      --btn-active-bg: #eee;
+      --border-radius: 4px;
+      --color: #333;
+      --border-color: #999 ;
+      --border-color-hover: #666;
+    }
+  </style>
+  <style>
+    
+  </style>
 </head>
 <body>
   <div id="app">
-    {{message}}
+    <s-button></s-button>
   </div>
-  <script src="./node_modules/vue/dist/vue.min.js"></script>
-  <script>
-    new Vue({
-      el: '#app',
-      data: {
-        message: 'hello'
-      }
-    })
-  </script>
+  <script src="./src/app.js"></script>
 </body>
 </html>
