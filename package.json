@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/Greency/sixsixsix-UI#readme",
   "dependencies": {
-    "chai": "^4.1.2",
+    "chai": "*",
+    "chai-spies": "^1.0.0",
     "vue": "^2.5.16",
     "vue-hot-reload-api": "^2.3.0"
   },
